@@ -1,7 +1,7 @@
 package org.osflash.signals.scope
 {
 
-	public interface IScopeSignal
+	public interface IScopeSignal extends IScopeDispatcher
 	{
 		/**
 		 * An optional array of classes defining the types of parameters sent to listeners.
